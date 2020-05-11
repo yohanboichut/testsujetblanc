@@ -12,8 +12,8 @@ public class Partie {
 
 
     public Partie(Collection<Bateau> bateauxJoueur1, Collection<Bateau> bateauxJoueur2) {
-        this.bateauxJoueur1 = new ArrayList<>(bateauxJoueur1);
-        this.bateauxJoueur2 = new ArrayList<>(bateauxJoueur2);
+        this.bateauxJoueur1 = bateauxJoueur1;
+        this.bateauxJoueur2 = bateauxJoueur2;
     }
 
     public boolean partieTerminee() {
